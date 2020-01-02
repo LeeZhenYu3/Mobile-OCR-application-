@@ -167,7 +167,7 @@ public class uploadFile extends AppCompatActivity {
         progressDialog.show();
 
         Calendar calendar=Calendar.getInstance();
-        SimpleDateFormat format=new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        SimpleDateFormat format=new SimpleDateFormat("d-M-yyyy HH:mm:ss");
         String date=format.format(calendar.getTime());
 
         String s=filename_userInput.getText().toString();
